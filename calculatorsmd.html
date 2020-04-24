@@ -13,17 +13,31 @@
 <body>
 <h1 id="title" align="center">Subtraction, Multiplication and Divison Calculator</h1>
 </br>
-<h2><a href="index.html"><- Back to main page</a></h2>
+<h2><a href="calculator.html"><- Back to main page</a></h2>
 </br>
 <div>
 <button id="sub">Subtraction</button>
+<button id="mul">Multiplication</button>
+<button id="divide">Division</button>
 </div>
 <script>
 var sub = document.getElementById("sub")
+var sub = document.getElementById("mul")
+var sub = document.getElementById("divide")
 sub.onclick = function() {
  var a = prompt("What is the first number?")
  var b = prompt("What is the second number?")
  alert(a-b)
+}
+mul.onclick = function() {
+ var a = prompt("What is the first number?")
+ var b = prompt("What is the second number?")
+ alert(a*b)
+}
+divide.onclick = function() {
+ var a = prompt("What is the first number?")
+ var b = prompt("What is the second number?")
+ alert(a/b)
 }
 </script>
 </body>
