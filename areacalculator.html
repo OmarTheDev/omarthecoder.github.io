@@ -23,9 +23,15 @@
  var circle = document.getElementById("cir");
  var triangle = document.getElementById("tri");
  circle.onclick = function() {
-  var a = prompt("What is the radius?")
-  var answer = (a * a * 3.14)
-  alert(answer)
+  var a = prompt("What is the radius?");
+  var answer = (a * a * 3.14);
+  alert(answer);
+ }
+ triangle.onclick = function() {
+  var a = prompt("What is the base?");
+  var b = prompt("What is the height?");
+  var answer = (0.5 * a * b);
+  alert(answer);
  }
 </script>
 </body>
