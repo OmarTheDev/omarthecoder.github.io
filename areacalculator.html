@@ -17,14 +17,21 @@
 </br>
 <div>
 <button id="cir">Circle</button>
+<button id="scir">Semi-Circle</button>
 <button id="tri">Triangle</button>
 </div>
 <script>
  var circle = document.getElementById("cir");
+ var semicircle = document.getElementById("scir");
  var triangle = document.getElementById("tri");
  circle.onclick = function() {
   var a = prompt("What is the radius?");
   var answer = (a * a * 3.14);
+  alert(answer);
+ }
+ semicircle.onclick = function() {
+  var a = prompt("What is the radius?");
+  var answer = (0.5 * 3.14 * a * a)
   alert(answer);
  }
  triangle.onclick = function() {
